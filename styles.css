@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    gap: 50px;
+    color: white;
+    background-color: #073837;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    background-color: #661313;
+    padding: 0px 20px;
+}
+
+.para {
+    background-color: #470f96;
+    flex: 50%;
+}
+
+#first_part {
+    flex: 30%;
+    border: 10px solid white;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#second_part {
+    flex: 70%;
+    /* padding: 0px 20px 0px 150px; */
+    background-color: #eb2828;
+    /* margin-right: 300px; */
+}
+
+footer{
+    background-color: #06686c;
+    position: relative;
+    top: 400px;
+}
+
+h1{
+    text-align: center;
+}
